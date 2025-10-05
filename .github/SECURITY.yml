@@ -2,4 +2,10 @@
 
 Please do not open public issues for potential security problems.
 
-Send potential security problems to brian@buildermethods.com and they will be addressed promptly.
+For security issues specific to Agent OS Mobile (React Native + Expo adaptation):
+- Create a private security advisory on this repository
+
+For issues related to the original Agent OS core:
+- Contact brian@buildermethods.com
+
+All security reports will be addressed promptly.

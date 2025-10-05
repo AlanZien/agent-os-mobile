@@ -206,12 +206,26 @@ Use the test-runner subagent to run and verify only the tests specific to this p
   </skip>
 </focused_test_execution>
 
+<mobile_test_commands>
+  <react_native_expo>
+    - Unit/Component tests: npm test [test-file-pattern]
+    - Watch mode: npm test -- --watch
+    - Coverage: npm test -- --coverage
+    - iOS simulator: expo start --ios (for manual testing)
+    - Android emulator: expo start --android (for manual testing)
+    - E2E tests (Detox): detox test --configuration ios.sim.debug
+    - E2E tests (Maestro): maestro test [flow-file]
+  </react_native_expo>
+</mobile_test_commands>
+
 <final_verification>
   IF any test failures:
     - Debug and fix the specific issue
     - Re-run only the failed tests
+    - Verify on both iOS and Android if needed
   ELSE:
     - Confirm all task tests passing
+    - Verify UI changes on simulator/emulator if applicable
     - Ready to proceed
 </final_verification>
 
@@ -221,6 +235,7 @@ Use the test-runner subagent to run and verify only the tests specific to this p
   WAIT: For test-runner analysis
   PROCESS: Returned failure information
   VERIFY: 100% pass rate for task-specific tests
+  MOBILE_VERIFY: Test on both platforms if UI changes were made
   CONFIRM: This feature's tests are complete
 </instructions>
 

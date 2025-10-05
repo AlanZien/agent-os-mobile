@@ -194,9 +194,14 @@ Use the project-manager subagent to create a structured summary message with emo
   [ONLY_IF_APPLICABLE]
   - **[ISSUE_1]** - [DESCRIPTION_AND_REASON]
 
-  ## 👀 Ready to test in browser
+  ## 👀 Ready to test on mobile
 
   [ONLY_IF_APPLICABLE]
+  **iOS Simulator:**
+  1. [STEP_1_TO_TEST]
+  2. [STEP_2_TO_TEST]
+
+  **Android Emulator:**
   1. [STEP_1_TO_TEST]
   2. [STEP_2_TO_TEST]
 
@@ -212,7 +217,7 @@ Use the project-manager subagent to create a structured summary message with emo
   </required>
   <conditional>
     - issues encountered (if any)
-    - testing instructions (if testable in browser)
+    - testing instructions (if testable on iOS/Android simulators)
   </conditional>
 </summary_sections>
 

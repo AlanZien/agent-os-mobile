@@ -1,9 +1,11 @@
-# Agent OS Configuration
+# Agent OS Mobile Configuration
+# React Native + Expo Edition
 
-# Refer to the official Agent OS documentation at:
-# https://buildermethods.com/agent-os
+# Refer to the Agent OS Mobile documentation in this repository
+# Original Agent OS: https://buildermethods.com/agent-os
 
-agent_os_version: 1.4.1
+agent_os_version: Mobile-1.0.0
+agent_os_base_version: 1.4.1
 
 agents:
   claude_code:

@@ -221,8 +221,14 @@ Use the file-creator subagent to create the file: .agent-os/specs/YYYY-MM-DD-spe
   </template>
   <constraints>
     - count: 1-3 expectations
-    - focus: browser-testable outcomes
+    - focus: mobile-testable outcomes (iOS and Android)
+    - verify: functionality works on both platforms
   </constraints>
+  <mobile_considerations>
+    - platform_specific: note iOS vs Android differences if any
+    - device_sizes: verify on multiple screen sizes
+    - offline_behavior: specify offline/online requirements
+  </mobile_considerations>
 </section>
 
 </step>
@@ -274,15 +280,20 @@ Use the file-creator subagent to create the file: sub-specs/technical-spec.md us
 <spec_sections>
   <technical_requirements>
     - functionality details
-    - UI/UX specifications
-    - integration requirements
-    - performance criteria
+    - UI/UX specifications (iOS and Android design patterns)
+    - integration requirements (API, native modules, Expo plugins)
+    - performance criteria (app size, startup time, memory usage)
+    - platform_specific: iOS vs Android implementation differences
+    - offline_support: data caching and sync strategies
+    - navigation_flow: screen transitions and deep linking
+    - permissions: camera, location, notifications, etc.
   </technical_requirements>
   <external_dependencies_conditional>
     - only include if new dependencies needed
-    - new libraries/packages
+    - new libraries/packages (verify Expo compatibility)
     - justification for each
     - version requirements
+    - native_modules: note if requires custom native code or Expo plugin
   </external_dependencies_conditional>
 </spec_sections>
 

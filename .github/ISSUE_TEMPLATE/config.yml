@@ -2,21 +2,25 @@ blank_issues_enabled: false
 
 contact_links:
   - name: 🐛 Report a bug or propose a fix
-    url: https://github.com/buildermethods/agent-os/discussions/categories/bugs
+    url: https://github.com/YOUR_USERNAME/agent-os-mobile/discussions/categories/bugs
     about: Already checked the docs and found a reproducible bug? Please report it in the 'Bugs' discussion area.
 
   - name: 💡 Feature request or idea
-    url: https://github.com/buildermethods/agent-os/discussions/categories/ideas
-    about: Request new features, integrations, or other improvements in the 'Ideas' discussion area.
+    url: https://github.com/YOUR_USERNAME/agent-os-mobile/discussions/categories/ideas
+    about: Request new features, integrations, or improvements for React Native + Expo development in the 'Ideas' discussion area.
 
   - name: ❓ Ask a question
-    url: https://github.com/buildermethods/agent-os/discussions/categories/q-a
-    about: For community support and general questions, use the 'Q&A' discussion area.
+    url: https://github.com/YOUR_USERNAME/agent-os-mobile/discussions/categories/q-a
+    about: For community support and general questions about mobile development with Agent OS, use the 'Q&A' discussion area.
 
-  - name: 🎯 Member support request
-    url: https://buildermethods.com/pro
-    about: Join Builder Methods Pro for official Agent OS support with guaranteed responses from Brian & team, plus access to community chat, workshops, courses and more.
+  - name: 📱 Mobile Examples
+    url: https://github.com/YOUR_USERNAME/agent-os-mobile/tree/main/examples/react-native-expo
+    about: Check out production-ready mobile templates for screens, components, hooks, and tests.
 
-  - name: 📗 Check the official docs
+  - name: 🎯 Original Agent OS (Web)
     url: https://buildermethods.com/agent-os
-    about: Please review the docs before posting a bug, question, or idea.
+    about: For web development (Rails/Ruby), use the original Agent OS by Builder Methods.
+
+  - name: 📗 Check the documentation
+    url: https://github.com/YOUR_USERNAME/agent-os-mobile/blob/main/README.md
+    about: Please review the README and examples before posting a bug, question, or idea.

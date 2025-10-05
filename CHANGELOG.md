@@ -1,9 +1,49 @@
 # Changelog
 
-All notable changes to Agent OS will be documented in this file.
+All notable changes to Agent OS Mobile (React Native + Expo Edition) will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Mobile-1.0.0] - 2025-10-05
+
+### Added - Mobile Adaptation
+
+**Complete React Native + Expo adaptation of Agent OS**
+
+#### Tech Stack & Standards
+- Adapted `tech-stack.md` for React Native + Expo ecosystem
+- Updated `best-practices.md` for mobile development patterns
+- Rewrote `code-style.md` for TypeScript/React Native
+- Created `typescript-react-native-style.md` - Component patterns and TypeScript best practices
+- Created `react-native-styling.md` - Mobile styling guidelines
+
+#### Instructions & Workflows
+- Updated `create-spec.md` for mobile deliverables (iOS/Android testing)
+- Updated `execute-task.md` for mobile testing commands
+- Updated `post-execution-tasks.md` for platform-specific validation
+
+#### Agents
+- Adapted `test-runner.md` for React Native testing (Jest, Detox, Maestro)
+- Updated `context-fetcher.md` examples for TypeScript/React Native
+
+#### Examples & Templates
+- Created comprehensive example templates in `/examples/react-native-expo/`
+  - Screen component with navigation and API integration
+  - Reusable UI components
+  - Production-ready custom hooks
+  - Complete test examples (unit, component, E2E)
+
+#### Documentation
+- Completely rewrote main `README.md` for mobile-first focus
+
+### Changed
+- All web/browser references replaced with mobile equivalents
+- Rails/Ruby examples replaced with TypeScript/React Native
+
+---
+
+## Original Agent OS Changelog (Rails/Ruby version)
 
 ## [1.4.2] - 2025-08-24
 

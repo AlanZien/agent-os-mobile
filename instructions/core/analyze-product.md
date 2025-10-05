@@ -1,16 +1,16 @@
 ---
-description: Analyze Current Product & Install Agent OS
+description: Analyze Current Product & Install Agent OS Mobile
 globs:
 alwaysApply: false
 version: 1.0
 encoding: UTF-8
 ---
 
-# Analyze Current Product & Install Agent OS
+# Analyze Current Product & Install Agent OS Mobile
 
 ## Overview
 
-Install Agent OS into an existing codebase, analyze current product state and progress.  Builds on plan-product.md
+Install Agent OS Mobile into an existing React Native + Expo codebase, analyze current product state and progress. Builds on plan-product.md
 
 <pre_flight_check>
   EXECUTE: @.agent-os/instructions/meta/pre-flight.md
@@ -32,10 +32,11 @@ Perform a deep codebase analysis of the current codebase to understand current s
     - Build configuration
   </project_structure>
   <technology_stack>
-    - Frameworks in use
-    - Dependencies (package.json, Gemfile, requirements.txt, etc.)
-    - Database systems
-    - Infrastructure configuration
+    - Frameworks in use (React Native, Expo)
+    - Dependencies (package.json, app.json, eas.json)
+    - Navigation library (React Navigation, etc.)
+    - State management (Context, Zustand, Redux, etc.)
+    - Backend/API configuration
   </technology_stack>
   <implementation_progress>
     - Completed features
@@ -70,7 +71,7 @@ Use the context-fetcher subagent to supplement codebase analysis with business c
 <context_questions>
   Based on my analysis of your codebase, I can see you're building [OBSERVED_PRODUCT_TYPE].
 
-  To properly set up Agent OS, I need to understand:
+  To properly set up Agent OS Mobile, I need to understand:
 
   1. **Product Vision**: What problem does this solve? Who are the target users?
 
@@ -93,7 +94,7 @@ Use the context-fetcher subagent to supplement codebase analysis with business c
 
 ### Step 3: Execute Plan-Product with Context
 
-Execute our standard flow for installing Agent OS in existing products
+Execute our standard flow for installing Agent OS Mobile in existing React Native + Expo products
 
 <execution_parameters>
   <main_idea>[DERIVED_FROM_ANALYSIS_AND_USER_INPUT]</main_idea>
@@ -105,7 +106,7 @@ Execute our standard flow for installing Agent OS in existing products
 <execution_prompt>
   @.agent-os/instructions/core/plan-product.md
 
-  I'm installing Agent OS into an existing product. Here's what I've gathered:
+  I'm installing Agent OS Mobile into an existing React Native + Expo product. Here's what I've gathered:
 
   **Main Idea**: [SUMMARY_FROM_ANALYSIS_AND_CONTEXT]
 
@@ -168,7 +169,7 @@ Refine the generated documentation to ensure accuracy for the existing product b
 
 ### Step 5: Final Verification and Summary
 
-Verify installation completeness and provide clear next steps for the user to start using Agent OS with their existing codebase.
+Verify installation completeness and provide clear next steps for the user to start using Agent OS Mobile with their existing React Native + Expo codebase.
 
 <verification_checklist>
   - [ ] .agent-os/product/ directory created
@@ -178,9 +179,9 @@ Verify installation completeness and provide clear next steps for the user to st
 </verification_checklist>
 
 <summary_template>
-  ## ✅ Agent OS Successfully Installed
+  ## ✅ Agent OS Mobile Successfully Installed
 
-  I've analyzed your [PRODUCT_TYPE] codebase and set up Agent OS with documentation that reflects your actual implementation.
+  I've analyzed your React Native + Expo [PRODUCT_TYPE] codebase and set up Agent OS Mobile with documentation that reflects your actual implementation.
 
   ### What I Found
 
@@ -199,13 +200,13 @@ Verify installation completeness and provide clear next steps for the user to st
 
   1. Review the generated documentation in `.agent-os/product/`
   2. Make any necessary adjustments to reflect your vision
-  3. See the Agent OS README for usage instructions: https://github.com/buildermethods/agent-os
-  4. Start using Agent OS for your next feature:
+  3. Check the mobile examples: `.agent-os/examples/react-native-expo/`
+  4. Start using Agent OS Mobile for your next feature:
      ```
      @.agent-os/instructions/core/create-spec.md
      ```
 
-  Your codebase is now Agent OS-enabled! 🚀
+  Your React Native + Expo codebase is now Agent OS Mobile-enabled! 🚀📱
 </summary_template>
 
 

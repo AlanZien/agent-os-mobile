@@ -1,5 +1,5 @@
 ---
-description: Create an Agent OS tasks list from an approved feature spec
+description: Create an Agent OS Mobile tasks list from an approved feature spec
 globs:
 alwaysApply: false
 version: 1.1
